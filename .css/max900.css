@@ -1,0 +1,81 @@
+@media screen and (max-width:900px){
+    .body1{
+        background-color: #ffffff;
+    }
+    /*---- cabecera---*/
+    .navbar.container-fluid {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    
+    /*---- pie de pagina---*/
+    .footer{ 
+        text-align: center;
+        background-color: #ffffff;
+    }
+    .footer_pos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 186px);
+        grid-row: 20px;
+        color: #a80614;
+        align-content: stretch;
+        justify-content: space-around;
+        justify-items: center;
+    }
+    .menu_categoria{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        }
+
+    .bs-footer__link {
+        color: #a80614;
+    }
+    .footer_datos {
+        display: block;
+        text-align: center;
+        color: #000;
+    }
+    h3, h4 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .bi {
+        color: #a80614
+        
+    }
+    .bi:hover.bi:hover {
+        color: #a80614;
+        text-decoration: none;
+    }
+    .redes {
+        color: #a80614;
+        text-decoration: none;
+        text-align: center;
+    }
+    .bs-footer_link_contacto {
+        color:#a80614;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .boton_mapa{ 
+        left: 5rem;
+    }
+    .btn-primary {
+        color: #ffffff;
+        background-color: #a80614;
+        border-color: #000;
+       
+    } 
+    .pie_titulos{
+        font-size: 1rem;
+    }
+    .boton_mapa{ 
+        left: 0rem;
+    }
+    
+}

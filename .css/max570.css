@@ -1,0 +1,13 @@
+@media screen and (max-width:570px){
+    .menu_categoria{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        } 
+     
+    .menu_categoria_inicio{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        } 
+    } 

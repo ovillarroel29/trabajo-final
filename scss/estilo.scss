@@ -1,0 +1,409 @@
+$color_fondo:#fff;
+$color_oscuro:#000;
+$color3:#0400ff;
+$color4:#a80614;
+$promediopx:1px;
+$promediorem:1rem;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $color_fondo;
+    font-family:"FrankRuhlLibre";
+}
+header{ 
+    .bs-cabecera{
+    .bs-caberecera-redes {
+        text-align: center;
+        display: flex;
+        margin: $promediopx;
+        padding: $promediopx;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        .a {
+            .bi {
+        color: $color_oscuro;
+        text-decoration: none;
+        }
+        
+    }
+    }
+    .hr{margin: 9px;}
+        .nav{
+            .navbar .navbar-expand-lg .navbar-light .bg-light{
+            .container-fluid{
+                .navbar-brand{
+                width:150px;}
+                .navbar-toggler{color:$color_oscuro;}
+                .collapse .navbar-collapse{
+                    .ul{
+                        .navbar-nav .me-auto .mb-2 .mb-lg-0{
+                            .li{
+                                .nav-item{
+                                    .a{
+                                        .nav-link .active{color:$color_oscuro;}
+                                        
+                                        
+                                    }
+                                }
+                            }
+                            .li{
+                                .nav-item .dropdown{
+                                    .a{
+                                        .nav-link .dropdown-toggle{color:$color_oscuro;}
+                                    }
+                                
+                                .ul{
+                                    .dropdown-menu{text-transform: uppercase;
+                                        .li{
+                                            .a{                                                   
+                                                .dropdown-item{color:$color_oscuro;
+                                                    text-transform: uppercase;
+                                                }
+                                            }                                              
+                                        }                                     
+                                    }
+                                }
+                                }
+                            }
+                        }
+                    }
+                    .d-flex{
+                        .form-control{color:$color_oscuro;
+                            
+                        }
+                        .btn-outline-success{
+                            color:$color_oscuro;
+                        }
+                    }
+                        .boton_login{
+                            color:$color_oscuro;
+                            margin: 2*$promediorem;
+                        }
+                    
+                }
+            }
+            }
+        }
+    }
+}
+.dropdown-item:hover{
+    text-decoration: underline;}
+.dropdown:hover {
+    transform: scale(1.2, 1.2);}
+.nav-link.active:hover {
+    transform: scale(1.2, 1.2);}
+.bi:hover.bi:hover {
+    color: $color3;
+    text-decoration: none;
+    transform: scale(1.5, 1.5);
+}
+
+.bi {
+    color: $color_oscuro;
+    text-decoration: none;
+    }
+    
+/*# footer*/
+
+ 
+        .footer_pos{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 50px);
+            background-color: $color_fondo;
+            color: $color_oscuro;
+            align-content: center;
+            justify-content: space-evenly;
+            align-items: baseline;
+            justify-items: center;
+            text-align: center;
+        
+            .li{ margin: $promediorem;
+                .h3 {text-transform:uppercase; }
+                    .pie_titulos{   font-size: 1.15rem;
+                        text-transform:uppercase;
+                        text-decoration: underline;
+                    
+                    }
+               
+                .h4{
+                    .bs-footer__title{font-size: $promediorem;}
+                }
+                
+                    .footer_datos .bi{
+                        color:$color_oscuro;
+                    }
+               
+             
+                    .bs-footer_link_contacto{
+                    display: block;
+                    padding: 7*$promediopx;
+                    font-weight: 700;
+                    color: $color_oscuro;
+                    text-transform:uppercase;
+                    font-size: $promediorem;
+                    text-decoration: underline
+                    }
+                
+
+                        .bs-footer__link{
+                            display: block;
+                            padding: 7*$promediopx;
+                            text-align: center;
+                            color:$color_oscuro;
+                            text-transform: uppercase;
+                            font-size: $promediorem;
+                        }
+                .a{
+                    .footer_Direccion_horarios .bi{
+                        display: block;
+                        padding: $promediorem;
+                        text-align: center;
+                        color: $color_oscuro;
+                        text-decoration: none;
+                        
+                    }
+                }
+                .a{
+                   .boton_mapa {            
+                    position: relative;
+                    left: $promediorem;
+                    color:$color_oscuro;
+                    }
+                }
+                .a{
+                 .footer_Direccion_horarios.bi {
+                    color:$color_fondo;
+                 }
+                }
+            
+                .redes{
+                    .bi{
+                        color: $color_oscuro;
+                        text-decoration: none;
+                    }
+
+                }
+                .logo2{
+                text-align: center;
+                padding: $promediorem;
+                    .logo3{
+                        width: 92*$promediopx;
+                        animation: gira 5s linear infinite;
+                    }
+                    
+                }
+            }
+        }
+ 
+.logo3{
+    width: 92*$promediopx;
+    animation: gira 5s linear infinite;
+}
+@keyframes gira {
+    50%{
+        transform: rotateZ(-360deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+    .logo2{
+        text-align: center;
+        padding: $promediorem;}
+.boton_mapa {            
+    position: relative;
+    background-color:$color_oscuro;
+        }
+.boton_mapa:hover {
+background-color:$color3;
+        }
+
+
+main{ text-align: center;}
+        h1{
+        text-align: center;
+        text-decoration: underline;
+        text-transform:uppercase;}
+        strong{ text-decoration: underline;}
+            p{ padding: 11*$promediopx;
+                text-align: justify;
+                font-family:"FrankRuhlLibre";
+                font-weight: 400;
+                font-style: normal;}
+
+
+
+/*# categorias*/
+.menu_categoria{
+    display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        background-color: $color_fondo;
+        color: $color_oscuro;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: baseline;
+        justify-items: center;
+        text-align: center;    
+        .card .col-sm-6 .col-md-4 .text-center .mb-4{ 
+            width: 18*$promediorem;}
+        .card-body{ 
+            color:$color_oscuro;
+            h5{
+                text-decoration: none;
+            }
+            p{
+                padding: 11*$promediopx;
+                text-align: justify;
+                font-family:"FrankRuhlLibre";
+                font-weight: 400;
+                font-style: normal;}
+            .btn {
+                position: relative;
+                background-color:$color_oscuro;
+            }
+            .btn-primary{
+                position: relative;
+                background-color:$color_oscuro
+            }
+        }
+    }
+ 
+.menu_categoria_inicio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-color: $color_fondo;
+    color: $color_oscuro;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: baseline;
+    justify-items: center;
+    text-align: center;
+    animation-name: aparece;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+
+    .tipo_bici .col-sm-6 .col-md-4 .text-center .mb-4 {
+        width: 18*$promediorem;
+        font-size: 400;
+            .categoria_body{
+                font-size: 400;
+            }
+    }
+}
+
+/*# contactanos*/
+
+.contacto{ 
+    justify-items: center;
+    text-align: center;
+    height: 26*$promediorem;
+    flex-wrap: wrap;
+    padding: 3*$promediorem;
+    margin: 3*$promediorem;
+    border: 6px $color_oscuro, solid;
+    background-image: url(../img2/bicibanner3.jpg);
+        .titulo_contactanos{
+            font-size: 1.25rem;
+            text-transform: uppercase;}
+}
+        .mb-3{
+            height: 96*$promediopx;
+            width: auto;
+            .form-label{
+                color:$color_oscuro;
+            }
+            area{border: solid $color_oscuro,;
+                display: flex;
+                flex-wrap: wrap;
+                form-control{
+                    border: solid $color_oscuro;
+                    display: flex;
+                    flex-wrap: wrap;}
+            }
+        }
+            .mb-3{
+                height: 96*$promediopx;
+                width: auto;
+                .form-label{
+                    color:$color_oscuro;
+                }
+                area{
+                    border: solid $color_oscuro;
+                    display: flex;
+                    flex-wrap: wrap;
+                    textarea{
+                    form-control{
+                        border: solid $color_oscuro;
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                    }
+                }
+        }
+.d-block {height: 30*$promediorem;}
+
+/*# login*/
+
+.inicio_sesion{
+    text-align: center;
+    font-size: 2*$promediorem;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: initial;
+}
+
+        .login{   
+            border: solid $color_oscuro 3*$promediopx;
+            padding: 1*$promediorem;
+            margin: 2*$promediorem;
+            background-image: url(../img2/login.jpg);
+            .mb-3{
+                height: 96*$promediopx;
+                width: auto;
+                .label{
+                    .form-label{
+                        color:$color_oscuro
+                    }
+                }
+                .input{ 
+                    .form-text{ 
+                        float: left;
+                        border: solid;
+                        margin-left: -1.5em;}
+                }
+
+            }
+            .mb-3 .form-check{
+                height: 96*$promediopx;
+                width: auto;
+                float: left;
+                border: solid;
+                margin-left: -1.5em;
+                .input{
+                    .form-check-input{
+                        float: left;
+                        border: solid;
+                        margin-left: -1.5em;}
+                }
+                .label{
+                    .form-check-label{
+                        float: left;
+                        border: solid;
+                        margin-left: -1.5em;
+                    }
+                }      
+            }
+            .btn {
+                position: relative;
+                background-color:$color_oscuro;
+            }
+        }
+ 

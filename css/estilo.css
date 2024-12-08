@@ -1,0 +1,553 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "FrankRuhlLibre";
+}
+
+header .bs-cabecera .bs-caberecera-redes {
+  text-align: center;
+  display: flex;
+  margin: 1px;
+  padding: 1px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .bs-cabecera .bs-caberecera-redes .a .bi {
+  color: #000;
+  text-decoration: none;
+}
+header .bs-cabecera .hr {
+  margin: 9px;
+}
+header .bs-cabecera .nav .navbar .navbar-expand-lg .navbar-light .bg-light .container-fluid .navbar-brand {
+  width: 150px;
+}
+header .bs-cabecera .nav .navbar .navbar-expand-lg .navbar-light .bg-light .container-fluid .navbar-toggler {
+  color: #000;
+}
+header .bs-cabecera .nav .navbar .navbar-expand-lg .navbar-light .bg-light .container-fluid .collapse .navbar-collapse .ul .navbar-nav .me-auto .mb-2 .mb-lg-0 .li .nav-item .a .nav-link .active {
+  color: #000;
+}
+header .bs-cabecera .nav .navbar .navbar-expand-lg .navbar-light .bg-light .container-fluid .collapse .navbar-collapse .ul .navbar-nav .me-auto .mb-2 .mb-lg-0 .li .nav-item .dropdown .a .nav-link .dropdown-toggle {
+  color: #000;
+}
+header .bs-cabecera .nav .navbar .navbar-expand-lg .navbar-light .bg-light .container-fluid .collapse .navbar-collapse .ul .navbar-nav .me-auto .mb-2 .mb-lg-0 .li .nav-item .dropdown .ul .dropdown-menu .li .a .dropdown-item {
+  color: #000;
+}
+header .bs-cabecera .nav .navbar .navbar-expand-lg .navbar-light .bg-light .container-fluid .collapse .navbar-collapse .d-flex .form-control {
+  color: #000;
+}
+header .bs-cabecera .nav .navbar .navbar-expand-lg .navbar-light .bg-light .container-fluid .collapse .navbar-collapse .d-flex .btn-outline-success {
+  color: #000;
+}
+header .bs-cabecera .nav .navbar .navbar-expand-lg .navbar-light .bg-light .container-fluid .collapse .navbar-collapse .boton_login {
+  color: #000;
+  margin: 2rem;
+}
+
+.dropdown-item:hover {
+  text-decoration: underline;
+}
+
+.dropdown:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.nav-link.active:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.bi:hover.bi:hover {
+  color: #0400ff;
+  text-decoration: none;
+  transform: scale(1.5, 1.5);
+}
+
+.boton_login {
+  color: #000;
+  margin: 2rem;
+}
+
+.bi {
+  color: #000;
+  text-decoration: none;
+}
+
+/*# footer*/
+.footer_pos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 50px);
+  background-color: #fff;
+  color: #000;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: baseline;
+  justify-items: center;
+  text-align: center;
+}
+.footer_pos .li .h3 {
+  text-transform: uppercase;
+}
+.footer_pos .li .pie_titulos {
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.footer_pos .li .h4 .bs-footer__title {
+  font-size: 1rem;
+}
+.footer_pos .li .footer_datos .bi {
+  color: #000;
+}
+.footer_pos .li .bs-footer_link_contacto {
+  display: block;
+  padding: 7px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.footer_pos .bs-footer__link {
+  display: block;
+  padding: 7px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.footer_pos .a .footer_Direccion_horarios .bi {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+.footer_pos .a .boton_mapa {
+  position: relative;
+  left: 1rem;
+  color: #000;
+}
+.footer_pos .a .footer_Direccion_horarios.bi {
+  color: #fff;
+}
+.footer_pos .redes .bi {
+  color: #000;
+  text-decoration: none;
+}
+.footer_pos .logo2 {
+  text-align: center;
+  padding: 1rem;
+}
+.footer_pos .logo2 .logo3 {
+  width: 92px;
+  animation: gira 5s linear infinite;
+}
+
+.logo3 {
+  width: 92px;
+  animation: gira 5s linear infinite;
+}
+
+@keyframes gira {
+  50% {
+    transform: rotateZ(-360deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+.logo2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.boton_mapa {
+  position: relative;
+  background-color: #000;
+}
+
+.boton_mapa:hover {
+  background-color: #0400ff;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+p {
+  padding: 11px;
+  text-align: justify;
+  font-family: "FrankRuhlLibre";
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*# categorias*/
+.menu_categoria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: white;
+  color: #000;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: baseline;
+  justify-items: center;
+  text-align: center;
+}
+.menu_categoria .card .col-sm-6 .col-md-4 .text-center .mb-4 {
+  width: 18rem;
+}
+.menu_categoria .card-body {
+  color: #000;
+}
+.menu_categoria .card-body h5 {
+  text-decoration: none;
+}
+.menu_categoria .card-body p {
+  padding: 11px;
+  text-align: justify;
+  font-family: "FrankRuhlLibre";
+  font-weight: 400;
+  font-style: normal;
+}
+.menu_categoria .card-body .btn {
+  position: relative;
+  background-color: #000;
+}
+.menu_categoria .card-body .btn-primary {
+  position: relative;
+  background-color: #000;
+}
+
+.menu_categoria_inicio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  background-color: #fff;
+  color: #000;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: baseline;
+  justify-items: center;
+  text-align: center;
+  animation-name: aparece;
+  animation-iteration-count: infinite;
+  animation-duration: 60s;
+}
+.menu_categoria_inicio .tipo_bici .col-sm-6 .col-md-4 .text-center .mb-4 {
+  width: 18rem;
+  font-size: 400;
+}
+.menu_categoria_inicio .tipo_bici .col-sm-6 .col-md-4 .text-center .mb-4 .categoria_body {
+  font-size: 400;
+}
+
+/*# contactanos*/
+.contacto {
+  justify-items: center;
+  text-align: center;
+  height: 26rem;
+  flex-wrap: wrap;
+  padding: 3rem;
+  margin: 3rem;
+  border: 6px #000, solid;
+  background-image: url(../img2/bicibanner3.jpg);
+}
+.contacto .titulo_contactanos {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.mb-3 {
+  height: 96px;
+  width: auto;
+}
+.mb-3 .form-label {
+  color: #000;
+}
+.mb-3 area {
+  border: solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mb-3 area form-control {
+  border: solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mb-3 {
+  height: 96px;
+  width: auto;
+}
+.mb-3 .form-label {
+  color: #000;
+}
+.mb-3 area {
+  border: solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mb-3 area textarea form-control {
+  border: solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-block {
+  height: 30rem;
+}
+
+/*# login*/
+.inicio_sesion {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: initial;
+}
+
+.login {
+  border: solid #000 3px;
+  padding: 1rem;
+  margin: 2rem;
+  background-image: url(../img2/login.jpg);
+}
+.login .mb-3 {
+  height: 96px;
+  width: auto;
+}
+.login .mb-3 .label .form-label {
+  color: #000;
+}
+.login .mb-3 .input .form-text {
+  float: left;
+  border: solid;
+  margin-left: -1.5em;
+}
+.login .mb-3 .form-check {
+  height: 96px;
+  width: auto;
+  float: left;
+  border: solid;
+  margin-left: -1.5em;
+}
+.login .mb-3 .form-check .input .form-check-input {
+  float: left;
+  border: solid;
+  margin-left: -1.5em;
+}
+.login .mb-3 .form-check .label .form-check-label {
+  float: left;
+  border: solid;
+  margin-left: -1.5em;
+}
+.login .btn {
+  position: relative;
+  background-color: #000;
+}
+
+/*# sourceMappingURL=estilo.css.map */
+@media screen and (max-width:1200px){
+  .menu_categoria{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      } 
+  }
+  @media screen and (max-width:950px){
+    .menu_categoria_inicio{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        } 
+    } 
+    @media screen and (max-width:900px){
+      .body1{
+          background-color: #ffffff;
+      }
+      /*---- cabecera---*/
+      .navbar.container-fluid {
+          display: flex;
+          flex-wrap: inherit;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row-reverse;
+      }
+      
+      /*---- pie de pagina---*/
+      .footer{ 
+          text-align: center;
+          background-color: #ffffff;
+      }
+      .footer_pos {
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 186px);
+          grid-row: 20px;
+          color: #a80614;
+          align-content: stretch;
+          justify-content: space-around;
+          justify-items: center;
+      }
+      .menu_categoria{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          }
+  
+      .bs-footer__link {
+          color: #a80614;
+      }
+      .footer_datos {
+          display: block;
+          text-align: center;
+          color: #000;
+      }
+      h3, h4 {
+          font-size: 1rem;
+          text-align: center;
+      }
+      
+      .bi {
+          color: #a80614
+          
+      }
+      .bi:hover.bi:hover {
+          color: #a80614;
+          text-decoration: none;
+      }
+      .redes {
+          color: #a80614;
+          text-decoration: none;
+          text-align: center;
+      }
+      .bs-footer_link_contacto {
+          color:#a80614;
+          text-align: center;
+          text-decoration: underline;
+      }
+      .boton_mapa{ 
+          left: 5rem;
+      }
+      .btn-primary {
+          color: #ffffff;
+          background-color: #a80614;
+          border-color: #000;
+         
+      } 
+      .pie_titulos{
+          font-size: 1.5rem;
+      }
+      .boton_mapa{ 
+          left: 0rem;
+      }
+      
+  }
+  @media screen and (max-width:570px){
+    .menu_categoria{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        } 
+     
+    .menu_categoria_inicio{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        } 
+    } 
+    @media screen and (max-width: 480px){
+      .body1{
+          background-color: #ffffff;
+      }
+      /*---- cabecera---*/
+      .navbar.container-fluid {
+          display: flex;
+          flex-wrap: inherit;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row-reverse;
+      }
+      
+      /*---- pie de pagina---*/
+      .footer{ 
+          text-align: center;
+          background-color: #000;
+      }
+      .footer_pos {
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(1, 186px);
+          grid-row: 20px;
+          color: #0400ff;
+          align-content: stretch;
+          justify-content: space-around;
+          justify-items: center;
+      }
+      .menu_categoria{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          }
+          .menu_categoria_inicio{
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+              grid-template-rows: repeat(1, 1fr);
+              } 
+      .bs-footer__link {
+          color: #0400ff;
+      }
+      .footer_datos {
+          display: block;
+          text-align: center;
+          color: #0400ff;
+      }
+      .footer_Direccion_horarios {
+          color: #0400ff;
+      }
+      h3, h4 {
+          font-size: calc(1.3rem + .6vw);
+          text-align: center;
+      }
+      .bi {
+          color: #0400ff;
+      }
+      .bi:hover.bi:hover {
+          color: #0400ff;
+          text-decoration: none;
+      }
+      .redes {
+          color: #0400ff;
+          text-decoration: none;
+          text-align: center;
+      }
+      .bs-footer_link_contacto {
+          color: #0400ff;
+          text-align: center;
+          text-decoration: underline;
+      }
+      .boton_mapa{ 
+          left: 0rem;
+      }
+      .pie_titulos{
+          font-size: 1.5rem;
+      }
+      }

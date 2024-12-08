@@ -1,0 +1,266 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    @font-face {
+        font-family: "FrankRuhlLibre";
+        src: url(../font/FrankRuhlLibre-VariableFont_wght.ttf);
+    }
+    body {
+    font-family:"FrankRuhlLibre";
+    
+    }
+    
+    /*---- cabecera---*/
+    .bs-caberecera-redes {
+        text-align: center;
+        display: flex;
+        margin: 1px;
+        padding: 1px;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .logo2{
+    text-align: center;
+    padding: 1rem;
+    }
+    
+    .logo3 {
+        width: 92px;
+        animation: gira 5s linear infinite;
+    }
+    @keyframes gira {
+        50%{
+            transform: rotateZ(-360deg);
+        }
+        100%{
+            transform: rotateZ(360deg);
+        }
+    }
+    .bi {
+        color: #000;
+        text-decoration: none;
+    }
+    .bi:hover.bi:hover {
+        color: #0400ff;
+        text-decoration: none;
+        transform: scale(1.5, 1.5);
+    }
+    h3{
+        text-transform:uppercase;
+    }
+    .nav-link.active:hover {
+        transform: scale(1.2, 1.2);
+    }
+    .dropdown:hover {
+        transform: scale(1.2, 1.2);
+    }
+    .dropdown-item:hover{
+        text-decoration: underline;
+    }
+    hr{
+        margin: 9px;
+    }
+    
+     h1, h2, .cent { 
+        text-align: center;
+        text-decoration: underline;
+        text-transform:uppercase;
+     }
+    
+    
+    p{ 
+        padding: 11px;
+        text-align: justify;
+        font-family:"FrankRuhlLibre";
+        font-weight: 400;
+        font-style: normal;
+    }
+    strong{
+        text-decoration: underline;
+    }
+    
+    .marcas{
+        text-align: center;
+        display: block;
+        padding: 10px;
+        margin: 10px;
+    }
+    main{
+        text-align: center;
+    }
+    .despacho{
+        width: 400px;
+        border-radius: 20px;
+        padding: 10px;
+        display: inline-block;
+    }
+    
+    header{
+        background: imlinear-gradient(183deg, #a89e9e00 20px, #fbf8f8 10rem, #809bb5 100%);
+    }
+     /*
+    main{
+        
+        background-image: url(../img/fondo-pared-azul_53876-88663.jpg);
+    }
+        */
+    
+    .bs-footer__title{
+        font-size: 1rem;
+    }
+    .bs-footer_link_contacto{
+        display: block;
+        padding: 7px;
+        font-weight: 700;
+        color: #000000;
+        text-transform:uppercase;
+        font-size: 1rem;
+        text-decoration: underline;
+    }
+    /*---- contacto---*/
+    .contacto {
+        justify-items: center;
+        text-align: center;
+        height: 26rem;
+        flex-wrap: wrap;
+        padding: 3rem;
+        margin: 3rem;
+        border: 6px #001 solid;
+        background-image: url(../img2/bicibanner3.jpg);
+    }
+    
+    
+    .titulo_contactanos {
+            font-size: 1.25rem;
+            text-transform: uppercase;
+    }
+    .area, .form-control {
+        border: solid #000;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .mb-3 {
+        height: 96px;
+        width: auto;
+    }
+    .login{
+        border: solid #000 3px;
+        padding: 1rem;
+        margin: 2rem;
+        background-image: url(../img2/login.jpg);
+    }
+    .inicio_sesion{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: underline;
+        text-transform: initial;
+    }
+    .form-check .form-check-input {
+        float: left;
+        border: solid;
+        margin-left: -1.5em;
+    }
+    .bi-person-circle {
+        font-size: 1.5rem;
+    }
+    .boton_login {
+        color:#000;
+        margin: 1rem;
+    }
+    /*---- end contacto---*/
+    
+    .footer_pos{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 50px);
+        background-color: #ffff;
+        color: #000;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: baseline;
+        justify-items: center;
+        text-align: center;
+        }
+    
+        .bs-footer__link {
+            display: block;
+            padding: 7px;
+            text-align: center;
+            color: #000;
+            text-transform: uppercase;
+            font-size: 1rem;
+        }
+        .footer_Direccion_horarios {
+            display: block;
+            padding: 1rem;
+            text-align: center;
+            color: #000;
+            text-decoration: none;
+        }
+        .pie_titulos{
+            font-size: 1.15rem;
+        }
+        .boton_mapa{ 
+            position: relative;
+            left: 1rem;
+        }
+    
+    
+    .card_img_top{
+        color: #000;
+    }
+    .menu_categoria{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        background-color: #ffff;
+        color: #000;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: baseline;
+        justify-items: center;
+        text-align: center;
+        }
+    .menu_categoria_inicio{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        background-color: #ffff;
+        color: #000;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: baseline;
+        justify-items: center;
+        text-align: center;
+        animation-name: aparece;
+        animation-iteration-count: infinite;
+        animation-duration: 60s;
+    } 
+    @keyframes aparece {
+        0%{
+        opacity: 0;}
+        10%{
+        opacity: 1;}
+        50%{
+        opacity: 1;}
+        100%{
+        opacity: 1;}
+    }
+    .categoria_body{
+        font-size: 400;
+    }
+    .tipo_bici{
+        font-size: 400;
+    
+    }
+   
+        
+    
+   
+    
